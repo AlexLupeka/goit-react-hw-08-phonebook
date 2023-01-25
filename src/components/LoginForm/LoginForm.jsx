@@ -6,6 +6,7 @@ import {
   LoginInput,
   LoginButton,
 } from './LoginForm.styled.jsx';
+import { Container } from '../App/App.styled';
 
 export function LoginForm() {
   const dispatch = useDispatch();
@@ -23,14 +24,20 @@ export function LoginForm() {
   };
 
   return (
-    <Form onSubmit={handleSubmit} autoComplete="off">
-      <LoginLabel>
-        <LoginInput type="email" name="email" placeholder="📧 Email" />
-      </LoginLabel>
-      <LoginLabel>
-        <LoginInput type="password" name="password" placeholder="🔐 Password" />
-      </LoginLabel>
-      <LoginButton type="submit">Login</LoginButton>
-    </Form>
+    <Container>
+      <Form onSubmit={handleSubmit} autoComplete="off">
+        <LoginLabel>
+          <LoginInput type="email" name="email" placeholder="📧 Email" />
+        </LoginLabel>
+        <LoginLabel>
+          <LoginInput
+            type="password"
+            name="password"
+            placeholder="🔐 Password"
+          />
+        </LoginLabel>
+        <LoginButton type="submit">Login</LoginButton>
+      </Form>
+    </Container>
   );
 }

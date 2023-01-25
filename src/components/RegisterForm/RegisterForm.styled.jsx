@@ -12,7 +12,7 @@ export const FormInput = style.input`
 display: block;
     margin-top: 10px;
     padding: 10px;
-    width: 400px;
+    // width: 400px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 15px;
     cursor: pointer;
@@ -23,7 +23,7 @@ display: block;
 
 export const FormButton = style.button`
 position: relative;
-left: 65%;
+left: 50%;
 transform: translate(-50%, 0);
 padding: 10px 20px;
   background-color: #ff6b08;
