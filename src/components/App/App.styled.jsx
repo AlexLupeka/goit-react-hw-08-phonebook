@@ -14,7 +14,7 @@ export const Container = style.div`
   overflow: hidden;
   z-index: -1;
   // background-color: #d5dde8d9;
-  padding: 50px 50px 50px 50px;
+  padding: 50px 20px 50px 20px;
 `;
 
 // export const Container = style.div`
