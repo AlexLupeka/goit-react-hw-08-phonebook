@@ -11,7 +11,7 @@ margin: 5px 0 30px 0px;
 
 export const FilterInput = style.input`
 display: block;
-  margin: 5px 0 30px 30%;
+  margin: 0 auto;
   padding: 10px;
   width: 400px;
   border: 1px solid rgba(33, 33, 33, 0.2);

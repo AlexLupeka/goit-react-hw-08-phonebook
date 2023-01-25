@@ -6,7 +6,7 @@ margin: 0 0 20px 0;`;
 export const ContactLabel = style.label`
   display: block;
   margin-bottom: 20px;
-  padding-left: 30%;
+  // padding-left: 30%;
   color: black;
   font-weight: 500;
   font-size: 20px;`;
@@ -26,7 +26,7 @@ display: block;
 
 export const ContactButton = style.button`
 position: relative;
-left: 52%;
+left: 50%;
 transform: translate(-50%, 0);
 padding: 10px 20px;
   background-color: #ff6b08;

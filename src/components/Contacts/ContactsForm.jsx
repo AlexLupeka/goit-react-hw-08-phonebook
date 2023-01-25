@@ -8,6 +8,7 @@ import {
   ContactInput,
   ContactButton,
 } from './ContactsForm.styled';
+import { Container } from '../App/App.styled';
 
 export default function Form() {
   const [name, setName] = useState('');
@@ -47,32 +48,34 @@ export default function Form() {
   };
 
   return (
-    <ContactForm onSubmit={handleSubmit}>
-      <ContactLabel>
-        <ContactInput
-          type="text"
-          name="name"
-          onChange={changeName}
-          value={name}
-          pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
-          title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
-          required
-          placeholder="🙍‍♂️ Name"
-        />
-      </ContactLabel>
-      <ContactLabel>
-        <ContactInput
-          type="tel"
-          name="number"
-          onChange={handleChange}
-          value={number}
-          pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
-          title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
-          required
-          placeholder="☎️ Number"
-        />
-      </ContactLabel>
-      <ContactButton type="submit">Add contact</ContactButton>
-    </ContactForm>
+    <Container>
+      <ContactForm onSubmit={handleSubmit}>
+        <ContactLabel>
+          <ContactInput
+            type="text"
+            name="name"
+            onChange={changeName}
+            value={name}
+            pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
+            title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
+            required
+            placeholder="🙍‍♂️ Name"
+          />
+        </ContactLabel>
+        <ContactLabel>
+          <ContactInput
+            type="tel"
+            name="number"
+            onChange={handleChange}
+            value={number}
+            pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
+            title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
+            required
+            placeholder="☎️ Number"
+          />
+        </ContactLabel>
+        <ContactButton type="submit">Add contact</ContactButton>
+      </ContactForm>
+    </Container>
   );
 }
