@@ -7,8 +7,8 @@ padding: 0;
   font-size: 18px;`;
 
 export const ContactItem = style.li`
-margin: 5px 0 5px 30%;
-  width: 420px;
+margin-left: 30px;
+  width: 320px;
   display: flex;
   justify-content: space-between;
   `;
