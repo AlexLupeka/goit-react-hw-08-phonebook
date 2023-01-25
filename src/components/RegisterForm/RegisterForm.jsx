@@ -6,6 +6,7 @@ import {
   FormInput,
   FormButton,
 } from './RegisterForm.styled.jsx';
+import { Container } from '../App/App.styled';
 
 export const RegisterForm = () => {
   const dispatch = useDispatch();
@@ -24,22 +25,28 @@ export const RegisterForm = () => {
   };
 
   return (
-    <Form onSubmit={handleSubmit} autoComplete="off">
-      <FormLabel>
-        <FormInput
-          type="text"
-          name="name"
-          pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
-          placeholder="🙍‍♂️ Name"
-        />
-      </FormLabel>
-      <FormLabel>
-        <FormInput type="email" name="email" placeholder="📧 Email" />
-      </FormLabel>
-      <FormLabel>
-        <FormInput type="password" name="password" placeholder="🔐 Password" />
-      </FormLabel>
-      <FormButton type="submit">Register</FormButton>
-    </Form>
+    <Container>
+      <Form onSubmit={handleSubmit} autoComplete="off">
+        <FormLabel>
+          <FormInput
+            type="text"
+            name="name"
+            pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
+            placeholder="🙍‍♂️ Name"
+          />
+        </FormLabel>
+        <FormLabel>
+          <FormInput type="email" name="email" placeholder="📧 Email" />
+        </FormLabel>
+        <FormLabel>
+          <FormInput
+            type="password"
+            name="password"
+            placeholder="🔐 Password"
+          />
+        </FormLabel>
+        <FormButton type="submit">Register</FormButton>
+      </Form>
+    </Container>
   );
 };

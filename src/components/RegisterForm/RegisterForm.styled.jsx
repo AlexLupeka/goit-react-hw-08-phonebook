@@ -18,11 +18,12 @@ display: block;
     cursor: pointer;
     font-size: 15px;
     
-        margin-left: 75%;`;
+        // margin-left: 75%;
+        `;
 
 export const FormButton = style.button`
 position: relative;
-left: 52%;
+left: 65%;
 transform: translate(-50%, 0);
 padding: 10px 20px;
   background-color: #ff6b08;
@@ -41,4 +42,5 @@ padding: 10px 20px;
   background-color: #FF0000;
 }
 
-    margin-left: 85%;`;
+    // margin-left: 85%;
+    `;
