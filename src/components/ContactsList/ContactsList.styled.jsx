@@ -7,7 +7,7 @@ padding: 0;
   font-size: 18px;`;
 
 export const ContactItem = style.li`
-margin-left: 30px;
+margin: 0 auto;
   width: 320px;
   display: flex;
   justify-content: space-between;
