@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/goit-react-hw-08-phonebook/static/css/main.7acaea2f.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.dccdd6fa.js",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.d2000ddf.js",
     "static/js/815.57709742.chunk.js": "/goit-react-hw-08-phonebook/static/js/815.57709742.chunk.js",
-    "static/js/427.b77eb93c.chunk.js": "/goit-react-hw-08-phonebook/static/js/427.b77eb93c.chunk.js",
+    "static/js/427.afff4df0.chunk.js": "/goit-react-hw-08-phonebook/static/js/427.afff4df0.chunk.js",
     "static/js/284.d53fde8a.chunk.js": "/goit-react-hw-08-phonebook/static/js/284.d53fde8a.chunk.js",
     "static/js/685.55d7aac7.chunk.js": "/goit-react-hw-08-phonebook/static/js/685.55d7aac7.chunk.js",
     "static/js/270.dc9e8005.chunk.js": "/goit-react-hw-08-phonebook/static/js/270.dc9e8005.chunk.js",
     "static/js/149.debb47ab.chunk.js": "/goit-react-hw-08-phonebook/static/js/149.debb47ab.chunk.js",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
     "main.7acaea2f.css.map": "/goit-react-hw-08-phonebook/static/css/main.7acaea2f.css.map",
-    "main.dccdd6fa.js.map": "/goit-react-hw-08-phonebook/static/js/main.dccdd6fa.js.map",
+    "main.d2000ddf.js.map": "/goit-react-hw-08-phonebook/static/js/main.d2000ddf.js.map",
     "815.57709742.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/815.57709742.chunk.js.map",
-    "427.b77eb93c.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/427.b77eb93c.chunk.js.map",
+    "427.afff4df0.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/427.afff4df0.chunk.js.map",
     "284.d53fde8a.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/284.d53fde8a.chunk.js.map",
     "685.55d7aac7.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/685.55d7aac7.chunk.js.map",
     "270.dc9e8005.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/270.dc9e8005.chunk.js.map",
@@ -20,6 +20,6 @@
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.dccdd6fa.js"
+    "static/js/main.d2000ddf.js"
   ]
 }
