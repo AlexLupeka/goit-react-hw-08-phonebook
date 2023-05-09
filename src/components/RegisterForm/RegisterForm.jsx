@@ -32,7 +32,7 @@ export const RegisterForm = () => {
             type="text"
             name="name"
             pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
-            placeholder="🙍‍♂️ John Johnson"
+            placeholder="🙍‍♂️ Name"
           />
         </FormLabel>
         <FormLabel>
